@@ -1,0 +1,17 @@
+<%- include('./partials/head.ejs') %> 
+<%- include('./partials/nav.ejs') %>
+<div class="content">
+    <div class="index-wrapper">
+        <div class="index-download">
+            <div class="index-download-header">DOWNLOADS</div>
+            <div class="index-download-content">
+                
+            </div>
+        </div>
+        <div class="twitch-stream">
+            <a href="https://www.twitch.tv/<%=stream%> ">Highlighted Streamer: <%=stream%> </a>
+            <iframe src="https://player.twitch.tv/?<%=stream%>&parent=www.vaporgabe.com&muted=true" frameborder="0"></iframe>
+        </div>
+    </div>
+</div>
+<%- include('./partials/footer.ejs') %> 

@@ -1,0 +1,22 @@
+<%- include('./partials/head.ejs') %> 
+<%- include('./partials/nav.ejs') %>
+<div class="content">
+    <div class="e404-flex-container">
+        <div class="e404-header">
+            4<img src="/image/omegalul.png" alt="0">4
+        </div>
+        <div class="e404-sub">
+            This is not the page you were looking for...
+        </div>
+        <div class="e404-footer">
+            <a href="/" class="back-arrow">
+                <svg viewBox="0 0 12 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.58579 0.585786C9.36684 -0.195262 10.6332 -0.195262 11.4142 0.585786C12.1542 1.32573 12.1931 2.50121 11.531 3.287L11.4142 3.41421L4.829 10L11.4142 16.5858C12.1542 17.3257 12.1931 18.5012 11.531 19.287L11.4142 19.4142C10.6743 20.1542 9.49879 20.1931 8.713 19.531L8.58579 19.4142L0.585786 11.4142C-0.154154 10.6743 -0.193099 9.49879 0.468954 8.713L0.585786 8.58579L8.58579 0.585786Z" fill="white"/>
+                </svg>
+                <div>Take me back!</div>
+            </a>
+            <img class="e404-emote" src=<%= emoteLink %>  alt=<%= emoteAlt %> >
+        </div>
+    </div>
+</div>
+<%- include('./partials/footer.ejs') %> 
