@@ -1,5 +1,7 @@
 # VaporGabeEmotes Server
 
+![Issues](https://img.shields.io/github/issues-raw/VaporGabeEmotes/server?style=for-the-badge)
+
 ## Server running and rendering the main VGE site and API.
 
 This is the, you guessed it, VGE Server, node project.  It handles the main site, server side rendering, the API, handles interaction with a [FaunaDB](https://fauna.com/), and hosts the emote image files.
