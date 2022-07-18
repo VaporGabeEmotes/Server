@@ -10,7 +10,7 @@ This is the, you guessed it, VGE Server, node project.  It handles the main site
 2. Install [Node JS & NPM](https://nodejs.org/)
 3. Navigate to the ddirectory you cloned the project to.
 4. Run `npm init`
-    - *Note, the main passport-twitch strategy is outdated and not actively updated, I use [this patch](https://github.com/nums/passport-twitch/tree/patch-1), just replace the files in node_modules/passport-twitch/lib/passport-twitch with the same files in the patch repo.
+    - *Note, the main passport-twitch strategy is outdated and not actively updated, I use [this patch](https://github.com/nums/passport-twitch/tree/patch-1), just replace the files in node_modules/passport-twitch/lib/passport-twitch with the same files in the patch repo.*
 5. Create a .env file to hold private keys and ids with required fields:
     - TWITCH_CLIENT_ID
     - TWITCH_CLIENT_SECRET
