@@ -12,7 +12,7 @@
     <div class="signIn-container">
         <a href="https://ko-fi.com/vaporgabe" class="button-highlight-background"><div>Donate</div></a>
         <% if(userData.signedIn == true) { %>
-            <img src="<%= userData.pfp %> " alt="" class="user-icon">
+            <img src="<%= userData.pfp %> " alt="" class="user-icon" data-selector="user-icon" data-userId="<%=userData.id%>" data-userName="<%=userData.name%>">
         <% } else { %> 
             <a href="/auth/twitch" class="button-white-border"><div>Sign In</div></a>
         <% } %> 

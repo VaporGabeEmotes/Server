@@ -98,7 +98,9 @@ app.use(express.static('assets'));
 app.use((req, res, next)=> {
     if(req.session.passport != undefined) {
         userData.signedIn = true,
-        userData.pfp = req.session.passport.user.img
+        userData.pfp = req.session.passport.user.img,
+        userData.id = req.session.passport.user.id,
+        userData.name = req.session.passport.user.name
     }
     next();
 })

@@ -265,6 +265,38 @@ a:link {
     transform: scale(1.1);
 }
 
+.user-menu {
+    position:absolute;
+    right: 4em;
+    top: 6.5em;
+    padding-top: .5em;
+    border-radius: var(--round);
+    display: none;
+
+    padding-left: .5em;
+    min-width: 8em;
+
+    background-color: var(--foreground);
+}
+.user-menu-container {
+    display: flex;
+    flex-direction: column;
+}
+.user-menu-container a {
+    color: var(--white);
+    margin-bottom: 1em;
+}
+.user-menu-container div {
+    width: 1em;
+    height: 1em;
+
+    transform: rotate(45deg);
+
+    position: absolute;
+    top: -.5em;
+    right: 3.8em;
+    background-color: var(--foreground);
+}
 /*////////////////////////////////////////////////////////////////////*/
 /*                    FOOTER                                          */
 /*////////////////////////////////////////////////////////////////////*/
